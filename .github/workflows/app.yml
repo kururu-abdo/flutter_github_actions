@@ -28,4 +28,4 @@ jobs:
         run: flutter test
 
       - name: build APK
-        run: flutter build apk 
+        run: flutter build apk --release
